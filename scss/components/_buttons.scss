@@ -1,0 +1,57 @@
+.btn {
+  padding: 9px 33px 11px 32px;
+  color: $white;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.555; /* 155.556% */
+}
+
+.prmy-btn {
+  border-radius: 24px;
+  border: 2px solid $white;
+  transition: 0.3s ease;
+}
+.prmy-btn:hover {
+  background: $white;
+  color: $midnight-Green;
+}
+
+.prmy-btn:active {
+  background-color: $midnight-Green;
+  color: $white;
+  opacity: 0.25;
+}
+
+.dark-btn {
+  color: $sacramento-state-green;
+  border-radius: 24px;
+  border: 2px solid $sacramento-state-green;
+}
+
+.dark-btn:hover {
+  background-color: $sacramento-state-green;
+  color: $white;
+}
+
+.dark-btn:active {
+  opacity: 0.25;
+}
+
+.secon-btn {
+  border-radius: 24px;
+  border: 2px solid $white;
+  background: $white;
+  color: $midnight-Green;
+}
+
+.secon-btn:hover {
+  border: 2px solid $rapture-blue;
+  color: $midnight-Green;
+  background: $rapture-blue;
+}
+
+.secon-btn:active {
+  border: 2px solid $rapture-blue;
+  opacity: 0.25;
+}

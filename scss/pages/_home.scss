@@ -1,0 +1,327 @@
+main {
+  flex-grow: 1;
+}
+// HERO START
+.musk {
+  padding-top: 6.5rem;
+  background-color: $bacgraund-color;
+  padding-bottom: 25rem;
+  background-image: url(../../images/musk-back-img1.svg),
+    url(../../images/musk-back-img2.svg);
+  background-repeat: no-repeat;
+  background-position: left top, right 400px bottom;
+}
+
+.musk-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-title {
+  width: 610px;
+  color: $white;
+  font-size: 10rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1;
+  span {
+    color: $light-Coral;
+  }
+}
+.musk-content {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  p {
+    color: $white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.555;
+  }
+}
+.musk-content__line {
+  width: 50px;
+  height: 4px;
+  flex-shrink: 0;
+  background-color: $rapture-blue;
+  margin-bottom: auto;
+}
+
+// HERO END
+
+// FEATURES START
+.feutres {
+  background-color: $sacramento-state-green;
+  background-image: url(../../images/features-img.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+}
+.features-container {
+  display: flex;
+}
+
+.features-titles {
+  width: 455px;
+  display: flex;
+  flex-direction: column;
+}
+.features-line {
+  width: 50px;
+  height: 4px;
+  flex-shrink: 0;
+  background-color: $light-Coral;
+  margin-bottom: 3rem;
+}
+.features-title {
+  color: $white;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1;
+}
+.features-list {
+  margin-left: auto;
+}
+.features-item {
+  display: flex;
+  margin-bottom: 5.4rem;
+  img {
+    margin-right: 2.3rem;
+  }
+}
+.item-content {
+  a {
+    color: $light-Coral;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.555;
+    margin-bottom: 1.6rem;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+  p {
+    width: 445px;
+    color: $white;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.666;
+  }
+}
+// FEATURES END
+
+// MASK START
+
+.mask {
+  background-image: url(../../images/reviews-bg-right.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-color: $deep-jungle-green;
+  padding: 14rem 0;
+}
+.mask-container {
+}
+
+.mask-title {
+  width: 100%;
+  max-width: 95rem;
+  text-align: center;
+  color: $white;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 9.2rem;
+  span {
+    color: $rapture-blue;
+  }
+}
+.mask-list {
+  display: flex;
+  text-align: center;
+}
+.mask-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p {
+    color: $white;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.666;
+    margin-bottom: 2.4rem;
+  }
+
+  a {
+    color: $rapture-blue;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.555;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  span {
+    color: $white;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.38;
+    margin-bottom: 3.2rem;
+  }
+}
+
+// MASK END
+
+// rady start
+
+.ready {
+  background-color: $light-Coral;
+  padding: 7.6rem 0;
+  background-image: url(../../images/ready-img.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+.ready-container {
+  display: flex;
+}
+.container {
+}
+.btn {
+}
+.dark-btn {
+}
+
+// rady end
+
+// FOOTER SATRT
+
+.footer {
+  padding: 4.8rem 0;
+  background-color: $midnight-Green;
+}
+.footer-container {
+  display: flex;
+}
+
+.footer__nav {
+  margin-right: 12.5rem;
+  a {
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  a {
+    margin-top: 2.5rem;
+    color: $white;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.555;
+    &:hover {
+      color: $light-Coral;
+    }
+  }
+}
+.footer-description {
+  margin-right: auto;
+  p {
+    color: $white;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.666;
+    opacity: 0.6;
+    a {
+      color: $white;
+      opacity: 0.6;
+    }
+  }
+}
+.footer-link {
+  p {
+    color: $white;
+    text-align: right;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.666;
+    opacity: 0.6;
+  }
+}
+.footer-pages {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 1.5rem;
+  margin-bottom: 5.1rem;
+}
+
+// FOOTER END
+
+// MEDIA
+
+@media screen and (max-width: 768px) {
+  .musk {
+    background-color: $bacgraund-color;
+    background-image: url(../../images/musk-back-img2.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+  .musk-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .musk-content {
+    width: 545px;
+    p {
+      text-align: center;
+    }
+  }
+
+  .musk-content__line {
+    display: none;
+  }
+
+  .site-title {
+    width: 397px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 87.5% */
+    font-size: 6.4rem;
+    margin-bottom: 2.4rem;
+  }
+  // Musk End
+
+  // Features Start
+  .feutres {
+    background-color: $sacramento-state-green;
+    background-image: url(../../images/features-img.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding-bottom: 0;
+  }
+
+  .features-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features-title {
+    margin-bottom: 6.4rem;
+  }
+}
